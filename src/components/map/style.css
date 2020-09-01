@@ -1,0 +1,18 @@
+/* MAP CONTAINER */
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.searchMap {
+  z-index: 1000;
+  width: 20%;
+  position: fixed;
+  top: 60px;
+  left: 51%;
+}
+
+.searchMap.hide {
+  display: none;
+}

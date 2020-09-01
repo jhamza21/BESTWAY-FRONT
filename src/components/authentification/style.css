@@ -1,0 +1,37 @@
+/* AUTHENTIFICATION CONTAINER PAGE */
+
+.authPage {
+  width: 40%;
+  margin: auto;
+}
+
+/* AUTHENTIFICATION TOGGLE FORM */
+
+.containerForm {
+  padding-top: 7%;
+  width: 30%;
+  margin: auto;
+}
+.toggleForm {
+  cursor: pointer;
+  text-align: center;
+}
+
+.toggleForm:hover {
+  color: orange;
+}
+
+.avatar{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.changePassword{
+  cursor: pointer;
+  padding-left: 10px;
+  color: orangered;
+}
+
+.changePassword:hover{
+  color: red;
+}

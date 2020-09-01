@@ -1,0 +1,148 @@
+/* CONTAINER LEFT */
+
+.containerLeft {
+  position: absolute;
+  overflow-y: scroll;
+  padding: 0px 20px 0 20px;
+  width: 50%;
+  height: 90%;
+}
+
+.containerLeft::-webkit-scrollbar {
+  display: none;
+}
+
+/* CONTAINER RIGHT */
+
+.containerRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  border-left: 1px solid rgb(194, 192, 192);
+}
+
+/* FORM CONTAINER */
+
+.formContainer {
+  border: solid 1px rgb(194, 191, 191);
+  border-radius: 10px;
+  background: white;
+  width: 100%;
+  margin: 5% auto;
+}
+
+/* BUTTONS GROUP */
+
+.buttonsGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* FORM TITLE */
+
+.formTitle {
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+/* PAGE TITLE */
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  padding:8px;
+}
+
+/* FORM BACK BUTTON*/
+
+.backButton {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* SELECT ADDRESS PAGE */
+
+.selectAddress {
+  background: white;
+  border: solid 1px rgb(77, 75, 75);
+  border-radius: 20px;
+  padding: 6px;
+  z-index: 100;
+  display: block;
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  left: 15%;
+  top: 10%;
+}
+
+.selectAddress.close {
+  display: none;
+}
+
+/* SELECT ADDRESS TITLE */
+
+.selectAddressHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* SELECT ADDRESS MAP CONTAINER */
+
+.selectAddressMap {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom:10px ;
+  width: 100%;
+  height: 72%;
+}
+
+/* SELECT ADDRESS CLOSE BUTTON */
+
+.selectAddressClose {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* ERROR CONTAINER */
+
+.error {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  letter-spacing: 1px;
+  font-size: medium;
+  border: solid 1px red;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  width: 50%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: rgb(241, 183, 161);
+  /*margin-bottom: 15px;*/
+}
+
+/* ERROR CLOSE BUTTON*/
+
+.closeButton {
+  cursor: pointer;
+}

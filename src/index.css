@@ -1,0 +1,10 @@
+html{
+    height: 100%;
+}
+
+body{
+    padding-top: 56px;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    background:rgb(247, 250, 250);
+}

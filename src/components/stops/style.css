@@ -1,0 +1,20 @@
+/* FILE INPUT IN STOPS UPLOAD */
+
+#fileInput {
+    display: none;
+}
+
+/* CONTAINER STOPS UPLOAD */
+
+.uploadPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 2% 2%;
+}
+
+/* DOWNLOAD TEMPLATE */
+
+.download_template {
+    color: orange;
+}

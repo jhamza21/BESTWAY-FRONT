@@ -1,0 +1,10 @@
+/* DRIVER PROFILE CHOOSE */
+
+.profileItem {
+    height: 55px;
+}
+
+.profileItem.clicked {
+    color: orange;
+    background: rgb(221, 218, 218);
+}
